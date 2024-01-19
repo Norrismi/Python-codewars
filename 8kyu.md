@@ -1,6 +1,10 @@
+8 kyu
+==========
+
+
 ## Check same case
 
-```
+```Py
 def same_case(a, b): 
     if a.islower() and b.islower() or a.isupper() and b.isupper():
         return 1
